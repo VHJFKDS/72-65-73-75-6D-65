@@ -27,13 +27,17 @@ h2{margin: 20px 0;border-bottom: 1.5px solid black;}
 h3{margin-right: 20px;}
 a{margin: 0 10px;color: inherit;font-size: 12px;}
 span{color: orange;}
+img{width: 80px;height: 98px;float: right;margin-right: 20px;}
+.other a{
+  font-size: 16px;
+}
 
 @media(max-width:420px){
     body{margin: 0;}
     .container{width: 100%;}
     .skill li{margin: 0;list-style: inherit;}
+    .message{margin: 0;text-align: inherit;}
+    header{display: block;}
+    a{margin: 0;}
 }
-img{width: 80px;height: 98px;float: right;margin-right: 20px;}
-.other a{
-  font-size: 16px;
-}
+
