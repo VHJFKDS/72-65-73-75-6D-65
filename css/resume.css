@@ -92,6 +92,10 @@ img {
   font-size: 16px;
 }
 
+.other li {
+  margin: 25px 0;
+}
+
 @media (max-width: 420px) {
   body {
     margin: 0;
